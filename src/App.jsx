@@ -65,7 +65,7 @@ function App() {
                 <a className="nav-link" href="#resume" style={{ color: 'white' }}>Resume</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact" style={{ color: 'white' }}>Contact</a>
+                <a className="nav-link" href="https://linktr.ee/shashankchauhan" style={{ color: 'white' }}>Contact</a>
               </li>
             </ul>
           </div>
