@@ -3,6 +3,7 @@ import './App.css'  // importing the css
 import 'bootstrap/dist/css/bootstrap.min.css';  // importing the bootstrap css
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // importing the bootstrap js
 import pic from './assets/pic.jpeg'  // importing the image name, path
+import resume_shashank from "./assets/resume_shashank.pdf"
 
 function App() {
   // const name="shashank chauhan";
@@ -15,7 +16,7 @@ function App() {
           <div className="col-11 col-md-8 col-lg-3 mx-auto mt-3 sidebar" style={{ backgroundColor: '#1f1d1d', borderRadius: '40px' }}>
             <div className="row leftBox"><img className='image mt-3' style={{ borderRadius: '50%' }} src={pic} alt="" />
               <h4 className='text' style={{ textAlign: 'center' }}><strong>Shashank Chauhan</strong></h4><br />
-              <h6 className='text' style={{ textAlign: 'center' }}><b>Web Developer</b></h6>
+              <h6 className='text' style={{ textAlign: 'center' }}><b>Explorer</b></h6>
               <br /><br />
               <ul>
                 <li>
@@ -34,9 +35,16 @@ function App() {
                 </li>
 
                 <li>
-                  <h6><i className="fa-solid fa-location-dot"></i>   <b>Location: </b></h6>
-                  <p>San Francisco, US</p>
+                  <h6><i class="fa-brands fa-linkedin"></i>   <b><a style={{color:"white", textDecoration:"none"}} href="www.linkedin.com/in/shashank-chauhan-99b459292">Linkdin: </a></b></h6>
+                  <p>Shashank Chauhan</p>
                 </li>
+
+                <li>
+                  <h6><i className="fa-solid fa-location-dot"></i>   <b>Location: </b></h6>
+                  <p>Chandigarh, India</p>
+                </li>
+
+                
               </ul>
 
             </div>
@@ -62,7 +70,7 @@ function App() {
                 <a className="nav-link" href="#about" style={{ color: 'white' }}>About Me</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#resume" style={{ color: 'white' }}>Resume</a>
+                <a className="nav-link" href={resume_shashank} style={{ color: 'white' }}>Resume</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://linktr.ee/shashankchauhan" style={{ color: 'white' }}>Contact</a>
@@ -83,8 +91,7 @@ function App() {
             <div className="row mt-4 mt-lg-2">
               <div className="col-12 col-lg-11 ms-lg-5">
                 <h5 className='aboutMe'>
-                  I'm Shashank, a Bachelor's of Engineering student at Chitkara University with a passion for designing unique websites.
-                  I'm dedicated to delivering high-quality, user-friendly websites that exceed expectations.
+                Hi, I'm Shashank Chauhan, a Bachelor's of Engineering student at Chitkara University. I'm actively learning Data Structures and Algorithms (DSA) in Java and applying my skills to real-world projects using the MERN stack. Additionally, I value effective communication and leadership, constantly working to improve these skills to collaborate effectively and lead teams to success.
                 </h5>
               </div>
             </div>
@@ -96,13 +103,11 @@ function App() {
                 <h5>
                   <b>Technical Skills :</b><br />
                   <div className='ts '>
-                    <span><a href="https://www.w3schools.com/html/">HTML</a></span>.
-                    <span><a href="https://www.w3schools.com/css/">CSS</a></span>.
-                    <span><a href="https://getbootstrap.com/">BOOTSTRAP</a></span>.
-                    <span><a href="https://www.w3schools.com/js/">JAVASCRIPT</a></span>.
-                    <span><a href="https://react.dev/">REACT</a></span>.
+                    <span><a href=""></a></span>
                     <span><a href="https://www.geeksforgeeks.org/java/">JAVA</a></span>.
-                    <span><a href="https://www.w3schools.com/cpp/">C++</a></span>.
+                    <span><a href="https://react.dev/">REACT</a></span>.
+                    <span><a href="https://www.w3schools.com/js/">NODEJS</a></span>.
+                    <span><a href="https://www.mongodb.com/">MONGODB</a></span>.
                     <span><a href="https://www.w3schools.com/MySQL/default.asp">MYSQL</a></span>
                     </div>
                 </h5>
@@ -128,15 +133,15 @@ function App() {
             <div className="work mt-4 mt-lg-1">
 
               <div className="work1">
-                <h5><i className="fa-solid fa-circle-half-stroke"></i> <a style={{ color: 'white' }} href="">project</a></h5>
+                <h5><i className="fa-solid fa-circle-half-stroke"></i> <a style={{ color: 'white' }} href="https://shashankchauhan1.github.io/weather-app/">Weather Application</a></h5>
               </div>
 
               <div className="work2">
-                <h5><i className="fa-solid fa-circle-nodes"></i>  <a style={{ color: 'white' }} href="">project</a></h5>
+                <h5><i className="fa-solid fa-circle-nodes"></i>  <a style={{ color: 'white' }} href="https://shashankchauhan1.github.io/TemperatureConverter/">Temperature Converter</a></h5>
               </div>
 
               <div className="work3">
-                <h5><i className="fa-solid fa-pen-nib"></i>  <a style={{ color: 'white' }} href="">project</a></h5>
+                <h5><i className="fa-solid fa-pen-nib"></i>  <a style={{ color: 'white' }} href="https://hotel-booking-app-sc11.onrender.com/">Hotel Booking App</a></h5>
               </div>
 
               <div className="work4">
